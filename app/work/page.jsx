@@ -46,7 +46,7 @@ const projects = [
     stack: [{ name: "Figma" }, { name: "Java (Spring)" }, { name: "Kotlin (Android)" }],
     image: "/assets/work/kundumobile.png",
     live: "",
-    github: "",
+    github: "https://github.com/omargpx/kundu-api",
   },
 ];
 

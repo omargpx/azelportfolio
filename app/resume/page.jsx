@@ -20,16 +20,6 @@ const experience = {
       position: "Full Stack Developer junior",
       duration: "2022 - 2023",
     },
-    {
-      company: "A&P S.A.C.",
-      position: "Java Backend Developer",
-      duration: "6 months - 2023",
-    },
-    {
-      company: "IATec",
-      position: "Full Stack Developer junior",
-      duration: "2022 - 2023",
-    },
   ],
 };
 
@@ -37,7 +27,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores pariatur facilis deserunt blanditiis doloribus, quas suscipit velit!",
+    "Systems Engineer recently graduated from Universidad Peruana Unión, with specialization in web development, backend and UI/UX design.",
   items: [
     {
       institution: "Universidad Peruana Unión (UPeU)",
@@ -50,7 +40,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores pariatur facilis deserunt blanditiis doloribus, quas suscipit velit!",
+    "In this section, you will find a compilation of the technologies that demonstrate my ability to design and develop efficient, scalable and visually appealing web applications. ",
   skillList: [
     {
       icon: <FaJava />,
