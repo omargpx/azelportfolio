@@ -17,6 +17,17 @@ import Image from "next/image";
 const projects = [
   {
     num: "01",
+    category: "Kundu",
+    title: "Backend Project & Mobile",
+    description:
+      "The kundu project for mobile devices. a detailed version for users. it was developed with spring boot and android studio.",
+    stack: [{ name: "Figma" }, { name: "Java (Spring)" }, { name: "Kotlin (Android)" }],
+    image: "/assets/work/kundumobile.png",
+    live: "",
+    github: "https://github.com/omargpx/kundu-api",
+  },
+  {
+    num: "02",
     category: "blender",
     title: "Kundu Project",
     description:
@@ -27,7 +38,7 @@ const projects = [
     github: "",
   },
   {
-    num: "02",
+    num: "03",
     category: "UI/UX Design",
     title: "Kundu Project",
     description:
@@ -37,17 +48,7 @@ const projects = [
     live: "",
     github: "",
   },
-  {
-    num: "03",
-    category: "Kundu",
-    title: "Backend Project & Mobile",
-    description:
-      "The kundu project for mobile devices. a detailed version for users. it was developed with spring boot and android studio.",
-    stack: [{ name: "Figma" }, { name: "Java (Spring)" }, { name: "Kotlin (Android)" }],
-    image: "/assets/work/kundumobile.png",
-    live: "",
-    github: "https://github.com/omargpx/kundu-api",
-  },
+  
 ];
 
 const Work = () => {
