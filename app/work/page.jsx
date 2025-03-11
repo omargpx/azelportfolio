@@ -28,6 +28,17 @@ const projects = [
   },
   {
     num: "02",
+    category: "Kundu images",
+    title: "image search engine",
+    description:
+      "First version of kundu like a engine search. This site uses external APIs.",
+    stack: [{ name: "Figma" }, { name: "Java (Spring)" }, { name: "Kotlin (Android)" }],
+    image: "/assets/work/kundu-images.png",
+    live: "https://kundu-images.pages.dev/",
+    github: "https://github.com/omargpx",
+  },
+  {
+    num: "03",
     category: "blender",
     title: "Kundu Project",
     description:
@@ -38,7 +49,7 @@ const projects = [
     github: "",
   },
   {
-    num: "03",
+    num: "04",
     category: "UI/UX Design",
     title: "Kundu Project",
     description:
