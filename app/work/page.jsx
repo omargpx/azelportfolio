@@ -32,7 +32,7 @@ const projects = [
     title: "image search engine",
     description:
       "First version of kundu like a engine search. This site uses external APIs.",
-    stack: [{ name: "Figma" }, { name: "Java (Spring)" }, { name: "Kotlin (Android)" }],
+    stack: [{ name: "Figma" }, { name: "JavaScript" }, { name: "Html" }, { name: "Css" }], 
     image: "/assets/work/kundu-images.png",
     live: "https://kundu-images.pages.dev/",
     github: "https://github.com/omargpx",
