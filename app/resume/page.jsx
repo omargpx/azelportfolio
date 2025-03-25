@@ -31,7 +31,7 @@ const education = {
   items: [
     {
       institution: "Universidad Peruana Unión (UPeU)",
-      degree: "Certified Systems Engineering",
+      degree: "Bach. Systems Engineering",
       duration: "2020 - 2024",
     },
   ],
@@ -111,7 +111,7 @@ const Resume = () => {
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
             {/* picture */}
-            <div className="mx-auto mt-6 hidden lg:block">
+            <div className="mx-auto mt-6 hidden xl:block">
               <Image src={boy} alt="casual-boy" height={170}></Image>
             </div>
           </TabsList>

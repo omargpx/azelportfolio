@@ -24,16 +24,13 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Developer Portfolio | @omargpax",
   description: "Personal projects, ideas and more about @omargpax as a developer",
-  icons:{
-    icon: "favicon.ico",
-  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${jetbrainsMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${jetbrainsMono.variable} antialiased pt-[120px] xl:pt-[150px]`}
       >
         <Header/>
         {children}
