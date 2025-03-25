@@ -32,7 +32,7 @@ export const Nav = () => {
         <nav className="flex gap-8">
             {links.map((link,index)=>{
                 return (
-                    <Link href={link.path} key={index} className={`${link.path === pathname && "text-cyan-500 border-b-3 border-cyan-500"} capitalize font-medium hover:text-cyan-400 transition-all`}>
+                    <Link href={link.path} key={index} className={`${link.path === pathname && "text-cyan-500 border-b-3 border-cyan-500"} capitalize font-medium hover:text-cyan-400 transition-all`} prefetch>
                         {link.name}
                     </Link>
                 );
