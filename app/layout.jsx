@@ -23,6 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
+  manifest: '/manifest.json',
   title: "Developer Portfolio | @omargpax",
   description: "Personal projects, ideas and more about @omargpax as a developer",
 };
